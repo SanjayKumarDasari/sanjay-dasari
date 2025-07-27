@@ -1,10 +1,11 @@
 .contact-section {
-  width: 100%;
+  width: 90%;
   min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background: transparent;
+  margin: 0 auto;
 }
 .contact-container {
   background: #0d0e10;
