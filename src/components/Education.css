@@ -1,0 +1,67 @@
+.education-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.education-card {
+  background-color: #0b0b0b;
+  border-radius: 15px;
+ box-shadow: 0 2px 10px rgba(72, 160, 189, 0.18);
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 400px;
+  max-height: 450px;
+  scroll-snap-align: center; /* Center snapping */
+  transition: transform 0.5s, opacity 0.5s;
+  opacity: 1;
+  position: relative;
+  color: #b5b5b5;
+}
+.education-card .image-section img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 80%;
+}
+.image-section {
+    padding: 0%;
+    margin: 0% auto;
+    height: 40%;
+}
+.education-card .content-section {
+  text-align: center;
+  padding: 0;
+  
+}
+.year-badge {
+  width: 60%;
+  background: rgb(35, 85, 103);
+  color: #fff;
+  border-radius: 1rem;
+  /* padding: 0.2rem 1rem; */
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #d6d6d6;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  margin:auto; 
+  display: inline-block;
+}
+@media (max-width: 700px) {
+  .education-card {
+    width: 95vw;
+  }
+  .education-card .image-section {
+    height: 40%;
+  }
+}

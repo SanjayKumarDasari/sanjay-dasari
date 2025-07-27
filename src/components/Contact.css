@@ -1,0 +1,69 @@
+.contact-section {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+.contact-container {
+  background: #0d0e10;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 10px rgba(72, 160, 189, 0.18);
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 420px;
+  width: 100%;
+}
+.intro-text {
+  color: #48a0bd;
+  font-size: 1.2rem;
+  margin-bottom: 2.2rem;
+  text-align: center;
+}
+.contact-icons {
+  display: flex;
+  gap: 2.2rem;
+  justify-content: center;
+}
+.cta {
+  font-size: 2.2rem;
+  color: #b3b3b3;
+  transition: color 0.2s, transform 0.2s;
+}
+.cta:hover {
+  color: #48a0bd;
+  transform: scale(1.18);
+}
+@media (max-width: 700px) {
+  .contact-container {
+    padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+    max-width: 98vw;
+  }
+  .contact-icons {
+    gap: 1.2rem;
+  }
+}
+
+/* Specific icon color can be added if needed */
+#insta {
+    color: #E4405F;
+}
+
+#mail {
+    color: #D44638;
+}
+
+#wapp {
+    color: #25D366;
+}
+
+#lin {
+    color: #0077B5;
+}
+
+#tele {
+    color: #0088CC;
+}

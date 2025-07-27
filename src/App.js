@@ -1,23 +1,43 @@
-import logo from './logo.svg';
+
+import React, { useState } from 'react';
 import './App.css';
+import Home from './components/Home';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Education from './components/Education';
+import Contact from './components/Contact';
+import Navigation from './components/Navigation';
 
 function App() {
+  const [currentTab, setCurrentTab] = useState('home');
+
+  let content;
+  switch (currentTab) {
+    case 'home':
+      content = <Home />;
+      break;
+    case 'projects':
+      content = <Projects />;
+      break;
+    case 'skills':
+      content = <Skills />;
+      break;
+    case 'education':
+      content = <Education />;
+      break;
+    case 'contact':
+      content = <Contact />;
+      break;
+    default:
+      content = <Home />;
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation currentTab={currentTab} setCurrentTab={setCurrentTab} />
+      <main style={{ padding: '2rem 0', minHeight: '80vh' }}>
+        {content}
+      </main>
     </div>
   );
 }
