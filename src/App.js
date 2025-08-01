@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Education from './components/Education';
+import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Navigation from './components/Navigation';
 
@@ -24,6 +25,9 @@ function App() {
       break;
     case 'education':
       content = <Education />;
+      break;
+    case 'experience':
+      content = <Experience />;
       break;
     case 'contact':
       content = <Contact />;

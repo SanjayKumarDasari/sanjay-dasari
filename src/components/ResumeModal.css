@@ -1,0 +1,54 @@
+.resume-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(24, 26, 32, 0.85);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.resume-modal {
+  background: #23272f;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 24px rgba(72, 160, 189, 0.18);
+  padding: 2rem 2.5rem;
+  min-width: 320px;
+  max-width: 95vw;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resume-modal h3 {
+  color: #48a0bd;
+  margin-bottom: 1.2rem;
+}
+.resume-modal input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+  border: none;
+  background: #181a20;
+  color: #f3f3f3;
+  font-size: 1rem;
+}
+.modal-actions {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+.resume-modal button {
+  background: #48a0bd;
+  color: #fff;
+  border: none;
+  border-radius: 0.7rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.resume-modal button:hover {
+  background: #ffd166;
+  color: #23272f;
+}

@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const icon = new URL('./assets/icon.png', import.meta.url);
+const link = document.createElement('link');
+link.rel = 'icon';
+link.type = 'image/png';
+link.href = icon.href;
+document.head.appendChild(link);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
