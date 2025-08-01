@@ -3,7 +3,7 @@ import './Contact.css';
 import { FaInstagram, FaEnvelope, FaWhatsapp, FaLinkedin, FaTelegram, FaDownload, FaComments } from 'react-icons/fa';
 
 
-const RESUME_URL = '/resume.pdf'; // Place your resume in public/resume.pdf
+const RESUME_URL = '/Sanjay Kumar Dasari.pdf'; // Place your resume in public/resume.pdf
 
 
 // Google Sign-In and Sheet API placeholders
