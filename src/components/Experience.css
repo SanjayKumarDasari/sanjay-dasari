@@ -3,7 +3,7 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem 0;
-  color: #f3f3f3;
+  color: #dbdcd0;
 }
 .exp-title {
   text-align: center;
@@ -28,12 +28,12 @@
   top: 0.7rem;
   width: 1.2rem;
   height: 1.2rem;
-  background: #48a0bd;
-  border-radius: 50%;
+  background: #19363f;
+  border-radius: -50%;
   box-shadow: 0 2px 8px rgba(72, 160, 189, 0.5);
 }
 .timeline-content {
-  background: #23272f;
+  background: #0c0d0e;
   border-radius: 1.2rem;
   box-shadow: 0 2px 16px rgba(72, 160, 189, 0.18);
   padding: 1.5rem 2rem;
