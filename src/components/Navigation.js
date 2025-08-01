@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHome, FaProjectDiagram, FaTools, FaGraduationCap, FaEnvelope } from 'react-icons/fa';
+import { FaHome, FaProjectDiagram, FaTools, FaGraduationCap, FaEnvelope, FaReact } from 'react-icons/fa';
 import './Navigation.css';
 
 const tabs = [
@@ -7,6 +7,7 @@ const tabs = [
   { name: 'Projects', icon: <FaProjectDiagram />, path: 'projects' },
   { name: 'Skills', icon: <FaTools />, path: 'skills' },
   { name: 'Education', icon: <FaGraduationCap />, path: 'education' },
+  { name: 'Experience', icon: <FaReact />, path: 'experience' },
   { name: 'Contact', icon: <FaEnvelope />, path: 'contact' },
 ];
 
